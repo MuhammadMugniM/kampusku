@@ -33,7 +33,7 @@ class BerandaScreen extends StatelessWidget {
             ListTile(
               leading: const Icon(Icons.class_),
               title: Text(mk.nama),
-              subtitle: Text(' ·  ·  SKS'),
+              subtitle: Text('${mk.kode} · ${mk.hari} · ${mk.sks} SKS'),
             ),
         ],
       ),
