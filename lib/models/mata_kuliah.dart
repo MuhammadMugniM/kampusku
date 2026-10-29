@@ -8,6 +8,14 @@ class MataKuliah {
     required this.kode,
     required this.nama,
     required this.sks,
-    required this.hari,
+    this.hari = '',
   });
+
+  const MataKuliah.praktikum({
+    required String kode,
+    required String nama,
+    String hari = '',
+  }) : this(kode: kode, nama: nama, sks: 1, hari: hari);
+
+  bool get isPraktikum => sks == 1;
 }

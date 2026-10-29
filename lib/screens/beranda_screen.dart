@@ -7,13 +7,9 @@ class BerandaScreen extends StatelessWidget {
   const BerandaScreen({super.key});
 
   static const _jadwal = [
-    MataKuliah(
-      kode: 'IF-024',
-      nama: 'Pemrograman Mobile II',
-      sks: 3,
-      hari: 'Senin',
-    ),
+    MataKuliah(kode: 'IF-024', nama: 'Pemrograman Mobile II', sks: 3 ,hari: 'Senin',),
     MataKuliah(kode: 'IF-021', nama: 'Basis Data', sks: 3, hari: 'Selasa'),
+    MataKuliah(kode: 'IF-024', nama: 'Keamanan Jaringan', sks: 3, hari: 'Kamis'),
   ];
 
   @override
